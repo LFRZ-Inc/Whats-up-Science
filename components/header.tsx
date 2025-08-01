@@ -26,6 +26,9 @@ export function Header() {
             <Link href="/browse" className="text-gray-700 hover:text-deepBlue transition-colors">
               Browse
             </Link>
+            <Link href="/curate" className="text-gray-700 hover:text-deepBlue transition-colors">
+              AI Curator
+            </Link>
             {user && profile?.is_verified && (
               <Link href="/dashboard" className="text-gray-700 hover:text-deepBlue transition-colors">
                 Dashboard
